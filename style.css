@@ -2,3 +2,46 @@
     margin:0px;
     padding:0px;
 }
+a{
+    text-decoration:none;
+}
+body{
+    font-family: 'Poppins';
+}
+
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color:orange;
+}
+#banner{
+    background-image:url(images/top-banner.png);
+    background-repeat:no-repeat;
+    display: flex;
+}
+.half-width{
+    width:50%;
+    padding: 5%;
+}
+.half-width p{
+    margin-bottom: 20px;
+}
+.half-width img{
+    position:relative;
+    width:90%;
+}
+.shadow{
+    position:absolute;
+    bottom:0px;
+    background: black;
+    height: 3px;
+    width:10px;
+}
+
+.link-button{
+    color:white;
+    background-image:linear-gradient(#da927c, #f8503d);
+    padding: 10px 40px;
+    border-radius:5px;
+}
