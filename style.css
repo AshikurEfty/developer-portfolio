@@ -6,17 +6,24 @@ a{
     text-decoration:none;
 }
 body{
+    background:black;
     font-family: 'Poppins';
 }
 
 h1{
+    color:white;
     font-size: 50px;
+}
+h3{
+    color:aliceblue;
+    padding-top:10px;
+    padding-bottom:5px;
 }
 .orange-color{
     color:orange;
 }
 #banner{
-    background-image:url(images/top-banner.png);
+    background-image:url(images/banner-1.png);
     background-repeat:no-repeat;
     display: flex;
 }
@@ -25,6 +32,7 @@ h1{
     padding: 5%;
 }
 .half-width p{
+    color:#a7a7a7;
     margin-bottom: 20px;
 }
 .half-width img{
