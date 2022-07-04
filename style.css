@@ -42,6 +42,7 @@ p{
 .half-width img{
     position:relative;
     width:90%;
+    animation:"animate__backInLeft";
 }
 .shadow{
     position:absolute;
@@ -61,7 +62,6 @@ p{
 #dream-big{
     display:flex;
     background-image: url(images/dream-bg.png);
-    margin-top:30px;
     background-repeat: no-repeat;
     background-position:right;
     background-size: 85px;
@@ -72,6 +72,7 @@ p{
 
 /* ====== exprience part start =======*/
 #exprience-part{
+    margin-top:75px;
     padding-left: 40px;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
@@ -95,3 +96,8 @@ p{
     border-left:5px solid #6023f0;
 }
 /* ====== exprience part end =======*/
+footer p{
+    text-align: center;
+    padding-top:100px;
+    padding-bottom:20px;
+}
