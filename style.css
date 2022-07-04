@@ -85,6 +85,7 @@ p{
     padding-left: 20px;
     padding-top: 23px;
     box-shadow: 2px 0px 30px -13px #fffd;
+    border-radius:50px;
 }
 .exprience-text h1 {
     font-size: 42px;
